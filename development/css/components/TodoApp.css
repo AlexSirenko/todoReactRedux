@@ -1,0 +1,59 @@
+.TodoApp {
+    width: 510px;
+    position: relative;
+}
+
+.TodoApp h1{
+    position: relative;
+    width: 100%;
+    font-size: 100px;
+    font-weight: 100;
+    text-align: center;
+    color: rgba(175, 47, 47, 0.15);
+}
+
+
+
+.searchInput {
+    display: inline-block;
+    padding: 16px 16px 16px 60px;
+    border: none;
+    background: #fff;
+    box-shadow: inset 0 -2px 1px rgba(0,0,0,0.03);
+    position: relative;
+    margin: 0;
+    width: 476px;
+    box-sizing: border-box;
+    font-size: 24px;
+    font-family: inherit;
+    font-weight: inherit;
+    line-height: 1.4em;
+    border: 0;
+    outline: none;
+    color: inherit;
+    float: right;
+}
+.checkInput {
+    background: #fff;
+    transform: rotate(90deg);
+    -webkit-appearance: none;
+    top: -55px;
+    left: -12px;
+    width: 60px;
+    height: 34px;
+    text-align: center;
+    border: none;
+}
+.checkInput::before {
+    content: '❯';
+    font-size: 22px;
+    color: #e6e6e6;
+    padding: 10px 27px 10px 27px;
+}
+.main {
+    position: relative;
+}
+.completed{
+    text-decoration: line-through;
+    color:#d9d9d9;
+}

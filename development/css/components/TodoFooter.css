@@ -1,0 +1,22 @@
+.TodoFooter {
+    background: #fff;
+    padding: 0 20px;
+}
+.TodoFooter>*{
+    display:inline-block;
+}
+
+.filters {
+    margin-left: 25%;
+}
+.filters li{
+    display: inline-block;
+    margin: 0 8px;
+    padding: 2px;
+    border: 1px solid #fff;
+}
+.filters li:hover {
+    border: 1px solid rgba(175, 47, 47, 0.15);
+    border-radius: 3px;
+    cursor: pointer;
+}

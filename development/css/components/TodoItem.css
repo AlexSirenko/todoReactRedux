@@ -1,0 +1,36 @@
+.TodoItem {
+    background: #fff;
+    width: 470px;
+    padding: 25px 0;
+    position: relative;
+}
+
+/*button*/
+.destroy {
+    /**/
+    border: 0;
+
+    width: 20px;
+    height: 20px;
+    float:right;
+    margin-right: 20px;
+    background: url(../../images/delete.png) no-repeat;
+    background-size: contain;
+    opacity: 0.5;
+    visibility: hidden;
+}
+
+.TodoItem:hover .destroy{
+    visibility: visible;
+    cursor: pointer;
+}
+.destroy:hover {
+    opacity: 0.8;
+}
+/*button*/
+/*label*/
+.TodoItem label{
+    width: 430px;
+    position: relative;
+    margin-left: 20px;
+}
